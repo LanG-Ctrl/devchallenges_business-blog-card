@@ -1,0 +1,56 @@
+body {
+    background-color: #F2F5F9;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #111729; 
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #4A5567;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #4A5567;
+}
+
+strong {
+    color: #111729;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin: 0;
+    height: 80%;
+    width: 470px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card-overlay {
+    position: relative;
+    bottom: 79px; 
+}
+
+.card-text {
+    padding: 30px;
+}
