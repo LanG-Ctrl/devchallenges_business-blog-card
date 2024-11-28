@@ -12,6 +12,7 @@ h1 {
     font-size: 1.5rem;
     color: #111729; 
     font-weight: 500;
+    margin-top: 0;
 }
 
 h2 {
@@ -37,8 +38,12 @@ strong {
     margin: 0;
     height: 80%;
     width: 470px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* overflow: hidden; */
+}
+
+.top-image {
+    height: 300px;
 }
 
 .card img {
@@ -51,6 +56,26 @@ strong {
     bottom: 79px; 
 }
 
-.card-text {
-    padding: 30px;
+.card-title {
+    margin: 30px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 0.5px solid #F2F5F9;
+}
+
+.card-avatar {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.card-avatar img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 4px solid #F2F5F9;
+    margin-right: 10px;
 }
