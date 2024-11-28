@@ -7,39 +7,12 @@ body {
     height: 100vh;
 }
 
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: #111729; 
-    font-weight: 500;
-    margin-top: 0;
-}
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    color: #4A5567;
-    font-weight: 400;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-    color: #4A5567;
-}
-
-strong {
-    color: #111729;
-}
-
 .card {
     background-color: #FFFFFF;
     border-radius: 16px;
     margin: 0;
-    height: 80%;
-    width: 470px;
-    /* box-sizing: border-box; */
-    /* overflow: hidden; */
+    height: auto;
+    width: 425px;
 }
 
 .top-image {
@@ -53,17 +26,36 @@ strong {
 
 .card-overlay {
     position: relative;
-    bottom: 79px; 
+    bottom: 70px; 
 }
 
 .card-title {
     margin: 30px;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #111729; 
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: -1px;
+    margin-top: -40px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #4A5567;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
 hr {
     width: 100%;
     border: none;
     border-top: 0.5px solid #F2F5F9;
+    margin-bottom: -20px;
 }
 
 .card-avatar {
@@ -73,9 +65,22 @@ hr {
 }
 
 .card-avatar img {
-    height: 36px;
-    width: 36px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     border: 4px solid #F2F5F9;
     margin-right: 10px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    color: #4A5567;
+    font-weight: 600;
+}
+
+strong {
+    color: #111729;
+    font-size: 1rem;
+    font-weight: 800;
 }
